@@ -1,6 +1,9 @@
 from functools import reduce
+from random import randint
 
-w = [3, 2, 5, 6, 2, 3, 5, 2]
+w = [randint(1, 5) for _ in range(5)]
+w.sort()
+print(w)
 
 def prod_lista(lista):
   return reduce(lambda x, y: x * y, lista)
