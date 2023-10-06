@@ -3,3 +3,5 @@ def quadrado(x):
 
 def quadrados(n):
     return list(map(quadrado, range(1, n + 1)))
+
+print(quadrados(20))
