@@ -1,5 +1,3 @@
-# c.append((cor,rgb))
-
 listaDeTuplas = []
 
 def iniciar(opção):
