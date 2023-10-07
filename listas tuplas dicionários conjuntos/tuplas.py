@@ -30,3 +30,9 @@ print('Tipo dicionário: ', type(dicionário))
 
 cores = [('FF0000', 'RED'), ('00FF00', 'GREEN')]
 print('Cor:', cores[0][0], cores[0][1])
+
+#
+
+a, b, *c = input().split() ## o * faz o c ser uma lista e bota todo resto nele
+print(a, b, c)
+print(type(c))
