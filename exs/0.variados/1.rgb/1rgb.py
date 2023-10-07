@@ -11,7 +11,7 @@ def iniciar(opção):
 def inserirCor():
   print('='*50)
   nomeCor = input('\nInsira o nome da cor: ')
-  codeCor = int(input('Insira o código da cor: '))
+  codeCor = input('Insira o código da cor: ')
   listaDeTuplas.append((nomeCor, codeCor))
   print(f'\nCor {nomeCor} adicionada.')
 
