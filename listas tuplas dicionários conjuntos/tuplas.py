@@ -27,3 +27,6 @@ print('Tipo conjunto: ', type(conjunto1))
 
 dicionário = {}
 print('Tipo dicionário: ', type(dicionário))
+
+cores = [('FF0000', 'RED'), ('00FF00', 'GREEN')]
+print('Cor:', cores[0][0], cores[0][1])
