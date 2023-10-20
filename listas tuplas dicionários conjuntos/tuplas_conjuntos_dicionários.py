@@ -12,6 +12,7 @@ print(L)
 maior, menor = maiorMenor(L)
 print(maior, menor, type(maior))
 
+#####TUPLA
 tupla1 = ()
 tupla2 = tuple()
 tupla3 = 1, 2, 3
@@ -21,12 +22,14 @@ print(type(tupla1))
 retorno = maiorMenor(L)
 print('Tipo do retorno: ', type(retorno))
 
+#####CONJUNTO
 conjunto1 = set()
 conjunto2 = {1, 2}
 print('Tipo conjunto: ', type(conjunto1))
 
-dicionário = {}
-print('Tipo dicionário: ', type(dicionário))
+#####DICIONÁRIO
+dicionário1 = {'key': 'value, pode ser uma lista aq, tupla, qlr coisa'}
+print('Tipo dicionário: ', type(dicionário1))
 
 cores = [('FF0000', 'RED'), ('00FF00', 'GREEN')]
 print('Cor:', cores[0][0], cores[0][1])
