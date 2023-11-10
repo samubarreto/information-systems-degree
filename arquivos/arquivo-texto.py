@@ -1,8 +1,8 @@
 '''
 
-r -> leitura
-w -> escrita, apaga o conteúdo existente
-a -> escrita, preservando o arquivo
+r -> leitura / read
+w -> escrita, apaga o conteúdo existente / write
+a -> escrita, preservando o arquivo / append, ponteiro já vai no fim, precisa usar o .seek(0) caso queira ir pro começo
 b -> binário
 + -> leitura e escrita
 
@@ -31,5 +31,3 @@ for linha in fp:
     print(linha, end='')
 
 fp.close()
-
-#separando 
